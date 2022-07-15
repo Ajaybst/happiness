@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Happiness</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Happiness</h1>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a class="navbar-link link_a" href="/#"
+              ><ion-icon name="home"></ion-icon> Home
+            </a>
+          </li>
+          <li>
+            <a class="navbar-link link_b" href="/#"
+              ><ion-icon name="basket"></ion-icon> Collection</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link link_c" href="/#">
+              <ion-icon name="cart"></ion-icon> Shoping</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-btn" onclick="toggleNavbar()">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+      <div><button class="post_btn">Post</button></div>
+      <div class="notification_icon_div">
+        <ion-icon name="notifications" class="notification_icon"></ion-icon>
+      </div>
+    </header>
+
+    <section class="banner_section">
+      <div>
+        <h1>Happiness</h1>
+        <p>Your Happiness is our happiness</p>
+      </div>
+      <div class="banner_input_div">
+        <select>
+          <option>Category</option></select
+        ><input type="text" placeholder="What do you search for" /><input
+          type="text"
+          placeholder="Search"
+        />
+        <button class="search_btn">Search</button>
+      </div>
+    </section>
+    <section class="showcase_section">
+      <div class="showcase_image">
+        <h2 class="deal">Special</h2>
+        <div><img src="smothie.png" alt="" class="smothie" /></div>
+      </div>
+      <div class="aboutshowcase">
+        <h1>Oreo Chocolate Icecrem</h1>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, eum asperiores magnam quis impedit error excepturi
+            ipsum odio nemo cum?
+          </p>
+        </div>
+
+        <h2>Location : Happiness</h2>
+
+        <div>
+          <button class="price_btn">$ 10</button
+          ><button class="delivery_btn">Buy now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="icecream_section">
+      <div class="icecream_section_head">
+        <h1>Icecreams</h1>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://thumbs.dreamstime.com/b/five-different-flavor-ice-cream-sundaes-light-wooden-table-blue-background-90783202.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>belgian wafle</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 7</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://media.istockphoto.com/photos/strawberry-ice-cream-with-fresh-strawberries-picture-id1313871755?b=1&k=20&m=1313871755&s=170667a&w=0&h=dg2P5aDxBUfB_zrNSzLOcMHJxANbJ3ol12gg6DjHHOc="
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Brey bery</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 4.5</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://wallpaperaccess.com/full/240313.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Triple Caramel</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 6</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/01/2-Ingredient-Ice-cream-Thumbnail-scaled.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Chocolate blast</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 2</h2>
+        </div>
+      </div>
+    </section>
+    <!-- ============================Shakes section=============================== -->
+    <section class="icecream_section">
+      <div class="icecream_section_head">
+        <h1>Shake</h1>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/b6i4o63x0ddv7r6mgrh0"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Kiwi</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 3</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/iltj4ryuvcipcs3mnib4"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Grapes</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 4</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://www.crushpixel.com/big-static15/preview4/three-glasses-fruit-juice-1988537.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Apple</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 10</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://st.depositphotos.com/1020618/4843/i/450/depositphotos_48435991-stock-photo-fresh-juice-mix-fruit.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Mix fruits</h2></div>
+        <div class="add">
+          <button><ion-icon name="add"></ion-icon></button>
+        </div>
+        <div class="price">
+          <h2>$ 5</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================Cake section------------ -->
+    <section class="icecream_section">
+      <div class="icecream_section_head">
+        <h1>Cakes</h1>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Chocolate burst</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 3</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://www.mybakingaddiction.com/wp-content/uploads/2011/10/lr-0953.jpg"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Hot chocolate</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 4</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/xnfqwhq5i07rtuyqzzvr"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Opera cake</h2></div>
+        <div class="add">
+          <button>+</button>
+        </div>
+        <div class="price">
+          <h2>$ 10</h2>
+        </div>
+      </div>
+      <div class="icecream_container">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+            alt=""
+            class="icecream_section_images"
+          />
+        </div>
+
+        <div class="name"><h2>Rose falooda</h2></div>
+        <div class="add">
+          <button><ion-icon name="add"></ion-icon></button>
+        </div>
+        <div class="price">
+          <h2>$ 5</h2>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_aboutus">
+        <h1>Happiness</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+          magni hic unde voluptates suscipit, perspiciatis inventore aspernatur
+          temporibus nobis obcaecati eaque, repellendus officiis odit harum
+          officia doloremque autem molestiae tempora?
+        </p>
+      </div>
+      <div class="categories">
+        <h1 class="categories_head">Categories</h1>
+        <ul>
+          <li>Cake</li>
+          <li>Pastry</li>
+          <li>Shakes</li>
+          <li>Candy</li>
+          <li>Toffee</li>
+          <li>Biscuits</li>
+        </ul>
+      </div>
+      <div class="navigation">
+        <h1 class="navigation_head">Navigation</h1>
+        <ul>
+          <li>Home</li>
+          <li>Sign In</li>
+          <li>Sign Up</li>
+          <li>Terms</li>
+          <li>FAQ</li>
+          <li>Help</li>
+        </ul>
+      </div>
+      <div class="region">
+        <h2>Region : <span>Nainital</span></h2>
+
+        <h2>Language : <span>Hindi</span></h2>
+
+        <h2>Currency : <span>Rupee</span></h2>
+      </div>
+    </footer>
+    <footer class="copywrite">
+      <div class="copy">
+        <p>
+          Copyright© 2022 happiness.com. All Rights Reserved. Inspired by Rakhee
+          mems Design. Made by ajay bisht.
+        </p>
+      </div>
+      <div class="social">
+        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href=""> <ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/ajay-bisht-58a2a322a/">
+          <ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+      </div>
+    </footer>
+
+    <!-- ==================Ionic icons CDN link================== -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <!-- ===================Active class toggle============ -->
+  <script>
+    let toggleNavbar = () => {
+      const nav_header = document.querySelector(".header");
+      nav_header.classList.toggle("active");
+    };
+  </script>
+</html>
